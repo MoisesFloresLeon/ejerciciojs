@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Repartir Donación</title>
+</head>
+<script>
+
+/*
+
+Un hospital ha recibido una donación especial que será repartida entre las áreas
+de Pediatría, Medicina General, Ginecología y Traumatología de la siguiente
+forma:
+· Pediatría: 20% del monto total recibido entre Medicina General y Ginecología
+· Medicina General : 45% de la donación
+· Ginecología : 30% de la donación
+· Traumatología: lo que resta la donación.
+
+
+
+*/
+
+let donac
+
+donac = prompt("ingresa monto de la donación")
+
+Pediatría = donac*0.20
+Medicina = 0.45*donac
+Ginecología = 0.30*donac
+Traumatología = 0.05*donac
+
+document.write("Monto que corresponde a Pediatría: " + Pediatría);
+document.write("<br>");
+document.write("Monto que corresponde a Medicina General : " +Medicina );
+document.write("<br>");
+document.write("Monto que corresponde a Ginecología : " + Ginecología );
+document.write("<br>");
+document.write("Monto que corresponde a Traumatología : " + Traumatología );
+document.write("<br>");
+
+</script>
+
+<body>
+
+</body>
+</html>
